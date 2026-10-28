@@ -1,0 +1,204 @@
+[
+  {
+    "id": "Q1",
+    "question": "What blood pressure threshold does WHO recommend for starting medication in adults?",
+    "expected": "answerable",
+    "retrieval": [
+      {
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page": 10,
+        "distance": 0.2368,
+        "characters": 2326
+      },
+      {
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page": 19,
+        "distance": 0.2429,
+        "characters": 2690
+      },
+      {
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page": 9,
+        "distance": 0.2514,
+        "characters": 844
+      }
+    ],
+    "answer": "Answer:\nWHO recommends starting pharmacological antihypertensive treatment in adults with a confirmed diagnosis of hypertension and systolic blood pressure of ≥140 mmHg or diastolic blood pressure of ≥90 mmHg. [S1, S3]\n\nExplanation in simple language:\nThe World Health Organization (WHO) suggests starting medication to control high blood pressure in adults if their blood pressure is 140 mmHg or higher for the top number (systolic) or 90 mmHg or higher for the bottom number (diastolic). This is based on moderate- to high-certainty evidence.\n\nSources:\n[S1, S3]",
+    "sources": [
+      {
+        "label": "S1",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 10,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      },
+      {
+        "label": "S2",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 19,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      },
+      {
+        "label": "S3",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 9,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      }
+    ],
+    "checks": {
+      "fallback_returned": false,
+      "abstention_check": "ANSWER_GENERATED",
+      "citation_labels_valid": true,
+      "source_metadata_complete": true
+    }
+  },
+  {
+    "id": "Q2",
+    "question": "What are the symptoms of pneumonia?",
+    "expected": "answerable",
+    "retrieval": [
+      {
+        "title": "Pneumonia",
+        "organization": "NHS",
+        "page": 1,
+        "distance": 0.2528,
+        "characters": 1106
+      },
+      {
+        "title": "Pneumonia",
+        "organization": "NHS",
+        "page": 2,
+        "distance": 0.3538,
+        "characters": 1487
+      },
+      {
+        "title": "Pneumonia",
+        "organization": "NHS",
+        "page": 3,
+        "distance": 0.3694,
+        "characters": 1149
+      }
+    ],
+    "answer": "Answer:\nThe symptoms of pneumonia can start suddenly or gradually over a few days. They can include:\n\n* a cough\n* shortness of breath\n* a high temperature\n* chest pain\n* an aching body\n* feeling very tired\n* loss of appetite\n* making wheezing noises when you breathe – babies may also make grunting noises\n* feeling confused – this is common in older people\n\nExplanation in simple language:\nPneumonia is an infection that can cause inflammation in the lungs. The symptoms can vary from person to person, but common ones include a cough, feeling short of breath, having a high temperature, and feeling tired or weak. In some cases, people may also experience chest pain, feel confused, or have difficulty breathing.\n\nSources:\n[S1] NHS, Pneumonia, Symptoms of pneumonia",
+    "sources": [
+      {
+        "label": "S1",
+        "title": "Pneumonia",
+        "organization": "NHS",
+        "page_number": 1,
+        "url": "https://www.nhs.uk/conditions/pneumonia/"
+      },
+      {
+        "label": "S2",
+        "title": "Pneumonia",
+        "organization": "NHS",
+        "page_number": 2,
+        "url": "https://www.nhs.uk/conditions/pneumonia/"
+      },
+      {
+        "label": "S3",
+        "title": "Pneumonia",
+        "organization": "NHS",
+        "page_number": 3,
+        "url": "https://www.nhs.uk/conditions/pneumonia/"
+      }
+    ],
+    "checks": {
+      "fallback_returned": false,
+      "abstention_check": "ANSWER_GENERATED",
+      "citation_labels_valid": true,
+      "source_metadata_complete": true
+    }
+  },
+  {
+    "id": "Q3",
+    "question": "What is the winning lottery number for tomorrow?",
+    "expected": "unanswerable",
+    "retrieval": [],
+    "answer": "I couldn't find relevant information in the available healthcare documents. Please consult a qualified healthcare professional for guidance.",
+    "sources": [],
+    "checks": {
+      "fallback_returned": true,
+      "abstention_check": "PASS",
+      "citation_labels_valid": true,
+      "source_metadata_complete": true
+    }
+  },
+  {
+    "id": "Q4",
+    "question": "What does WHO recommend for treating hypertension in adults?",
+    "expected": "answerable",
+    "retrieval": [
+      {
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page": 10,
+        "distance": 0.2034,
+        "characters": 2326
+      },
+      {
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page": 1,
+        "distance": 0.2333,
+        "characters": 73
+      },
+      {
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page": 3,
+        "distance": 0.2333,
+        "characters": 73
+      }
+    ],
+    "answer": "Answer: The World Health Organization (WHO) recommends pharmacological antihypertensive treatment for individuals without cardiovascular disease but with high cardiovascular risk, diabetes mellitus, or chronic kidney disease, and systolic blood pressure of 130-139 mmHg.\n\nExplanation in simple language: The WHO suggests that people with high blood pressure (hypertension) who don't have heart disease but have other risk factors, such as diabetes or kidney disease, should take medication to control their blood pressure. This is especially important if their blood pressure is between 130-139 mmHg.\n\nSources:\n\n* [S1] WHO suggests pharmacological antihypertensive treatment of individuals without cardiovascular disease but with high cardiovascular risk, diabetes mellitus, or chronic kidney disease, and systolic blood pressure of 130–139 mmHg. (WHO, 2022, p. 10)\n\nMedical disclaimer: This information is for educational purposes only and is not a substitute for professional medical advice.",
+    "sources": [
+      {
+        "label": "S1",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 10,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      },
+      {
+        "label": "S2",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 1,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      },
+      {
+        "label": "S3",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 3,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      }
+    ],
+    "checks": {
+      "fallback_returned": false,
+      "abstention_check": "ANSWER_GENERATED",
+      "citation_labels_valid": true,
+      "source_metadata_complete": true
+    }
+  },
+  {
+    "id": "Q5",
+    "question": "What is the recommended treatment for a disease not covered in the available documents?",
+    "expected": "unanswerable",
+    "retrieval": [],
+    "answer": "I couldn't find relevant information in the available healthcare documents. Please consult a qualified healthcare professional for guidance.",
+    "sources": [],
+    "checks": {
+      "fallback_returned": true,
+      "abstention_check": "PASS",
+      "citation_labels_valid": true,
+      "source_metadata_complete": true
+    }
+  }
+]

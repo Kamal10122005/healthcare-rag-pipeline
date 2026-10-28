@@ -1,0 +1,78 @@
+[
+  {
+    "id": "Q1",
+    "question": "What blood pressure threshold does WHO recommend for starting medication in adults?",
+    "answer": "Answer:\nWHO recommends starting pharmacological antihypertensive treatment in adults with a confirmed diagnosis of hypertension and systolic blood pressure of ≥140 mmHg or diastolic blood pressure of ≥90 mmHg. For individuals with existing cardiovascular disease, the recommended threshold is systolic blood pressure of 130–139 mmHg.\n\nExplanation in simple language:\nThe World Health Organization (WHO) suggests starting medication for high blood pressure in adults if their blood pressure is 140 mmHg or higher for systolic pressure, or 90 mmHg or higher for diastolic pressure. For people with a history of heart disease, the threshold is slightly lower, at 130-139 mmHg for systolic pressure.\n\nSources:\n[S2] WHO recommends initiation of pharmacological antihypertensive treatment of individuals with a confirmed diagnosis of hypertension and systolic blood pressure of ≥140 mmHg or diastolic blood pressure of ≥90 mmHg. (Strong recommendation, moderate- to high-certainty evidence)\n[S2] WHO recommends pharmacological antihypertensive treatment of individuals with existing cardiovascular disease and systolic blood pressure of 130–139 mmHg. (Strong recommendation, moderate- to high-certainty evidence)",
+    "available_labels": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "detected_labels": [
+      "S2"
+    ],
+    "invalid_labels": [],
+    "citation_label_check": "PASS",
+    "sources": [
+      {
+        "label": "S1",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 10,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      },
+      {
+        "label": "S2",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 19,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      },
+      {
+        "label": "S3",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 9,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      }
+    ]
+  },
+  {
+    "id": "Q4",
+    "question": "What does WHO recommend for treating hypertension in adults?",
+    "answer": "Answer:\nThe World Health Organization (WHO) recommends pharmacological antihypertensive treatment for individuals without cardiovascular disease but with high cardiovascular risk, diabetes mellitus, or chronic kidney disease, and systolic blood pressure of 130-139 mmHg. [S1]\n\nExplanation in simple language:\nFor adults with hypertension, WHO suggests starting medication if they have a high risk of developing cardiovascular disease, diabetes, or chronic kidney disease, and their blood pressure is between 130-139 mmHg. This is based on moderate- to high-certainty evidence.\n\nSources:\n[S1]",
+    "available_labels": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "detected_labels": [
+      "S1"
+    ],
+    "invalid_labels": [],
+    "citation_label_check": "PASS",
+    "sources": [
+      {
+        "label": "S1",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 10,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      },
+      {
+        "label": "S2",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 11,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      },
+      {
+        "label": "S3",
+        "title": "Guideline for the pharmacological treatment of hypertension in adults",
+        "organization": "World Health Organization",
+        "page_number": 13,
+        "url": "https://www.who.int/publications/i/item/9789240033986"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated vector database and data
+chroma_db/
+data/raw/
+data/processed/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+# Local vector database and backups
+chroma_db/
+chroma_db_backup/
+
+# Local search index
+keyword_index.sqlite3
+
+# Local environment and model files
+.env
+.venv/
+# Local vector database and backups
+chroma_db/
+chroma_db_backup/
+
+# Healthcare documents and generated chunks
+data/knowledge base/
+data/raw/
+data/processed/
+
+# Local search index
+keyword_index.sqlite3

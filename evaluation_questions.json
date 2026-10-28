@@ -1,0 +1,28 @@
+
+[
+  {
+    "id": "Q1",
+    "question": "What blood pressure threshold does WHO recommend for starting medication in adults?",
+    "expected": "answerable"
+  },
+  {
+    "id": "Q2",
+    "question": "What are the symptoms of pneumonia?",
+    "expected": "verify_evidence"
+  },
+  {
+    "id": "Q3",
+    "question": "What is the winning lottery number for tomorrow?",
+    "expected": "unanswerable"
+  },
+  {
+    "id": "Q4",
+    "question": "What does WHO recommend for treating hypertension in adults?",
+    "expected": "answerable"
+  },
+  {
+    "id": "Q5",
+    "question": "What is the recommended treatment for a disease not covered in the available documents?",
+    "expected": "verify_evidence"
+  }
+]
