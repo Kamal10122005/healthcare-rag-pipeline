@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patient-interview"
+version = "0.1.0"
+description = "Stateful interview workflow for the HCL assistant project"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=1.2,<2.0",
+    "langchain-openai>=1.0",
+    "langchain-ollama>=1.0",
+    "python-dotenv>=1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
