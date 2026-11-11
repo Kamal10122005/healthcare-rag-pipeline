@@ -1,0 +1,114 @@
+/**
+ * Colour tokens — single source of truth.
+ *
+ * Values are HSL channel triplets ("H S% L%") so Tailwind can apply
+ * opacity modifiers (e.g. `bg-brand/10`). Never reference a raw hex value
+ * inside a component; add a token here instead.
+ *
+ * Rationale for the palette:
+ *  - Brand is a deep, desaturated navy. It reads as clinical and institutional
+ *    rather than consumer-tech, and it holds up as a large surface (the rail).
+ *  - Accent is a muted teal used *only* for evidence and provenance affordances,
+ *    so "teal" becomes a learned signal for "this is traceable to a source".
+ *  - Status colours are low-chroma on purpose: in a health product a red alert
+ *    must mean something, so nothing decorative is allowed to borrow it.
+ *  - Demo (violet) is reserved exclusively for demonstration-data labelling and
+ *    is never used for anything else, anywhere in the product.
+ */
+
+:root,
+:root[data-theme='light'] {
+  --canvas: 210 24% 96.5%;
+  --surface: 0 0% 100%;
+  --surface-raised: 0 0% 100%;
+  --surface-sunken: 210 24% 98%;
+  --surface-inverse: 213 46% 13%;
+
+  --line: 214 20% 89%;
+  --line-strong: 214 17% 79%;
+
+  --ink: 215 36% 13%;
+  --ink-muted: 215 15% 40%;
+  --ink-subtle: 215 12% 55%;
+  --ink-inverse: 210 28% 96%;
+
+  --brand: 211 74% 21%;
+  --brand-hover: 211 76% 16%;
+  --brand-soft: 211 58% 95%;
+  --brand-border: 211 42% 84%;
+  --brand-contrast: 0 0% 100%;
+
+  --accent: 187 68% 27%;
+  --accent-hover: 187 70% 22%;
+  --accent-soft: 185 54% 94%;
+  --accent-border: 186 40% 78%;
+
+  --success: 153 46% 28%;
+  --success-soft: 150 44% 94%;
+  --success-border: 151 32% 77%;
+
+  --warning: 32 78% 36%;
+  --warning-soft: 40 82% 94%;
+  --warning-border: 36 60% 76%;
+
+  --danger: 1 58% 42%;
+  --danger-soft: 2 72% 96%;
+  --danger-border: 2 50% 83%;
+
+  --demo: 264 44% 44%;
+  --demo-soft: 264 60% 96%;
+  --demo-border: 264 38% 84%;
+
+  --focus: 205 90% 45%;
+  --shadow: 215 40% 20%;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --canvas: 215 32% 8%;
+  --surface: 215 28% 11%;
+  --surface-raised: 215 26% 13.5%;
+  --surface-sunken: 215 32% 9.5%;
+  --surface-inverse: 213 24% 94%;
+
+  --line: 215 20% 20%;
+  --line-strong: 215 16% 30%;
+
+  --ink: 210 24% 93%;
+  --ink-muted: 213 14% 66%;
+  --ink-subtle: 213 12% 52%;
+  --ink-inverse: 215 36% 13%;
+
+  --brand: 205 76% 62%;
+  --brand-hover: 205 80% 70%;
+  --brand-soft: 211 44% 17%;
+  --brand-border: 209 34% 30%;
+  --brand-contrast: 215 40% 10%;
+
+  --accent: 185 58% 52%;
+  --accent-hover: 185 62% 60%;
+  --accent-soft: 187 40% 16%;
+  --accent-border: 186 32% 30%;
+
+  --success: 152 44% 54%;
+  --success-soft: 153 34% 14%;
+  --success-border: 152 26% 28%;
+
+  --warning: 38 74% 60%;
+  --warning-soft: 36 40% 15%;
+  --warning-border: 36 32% 30%;
+
+  --danger: 2 70% 64%;
+  --danger-soft: 2 40% 16%;
+  --danger-border: 2 32% 32%;
+
+  --demo: 264 64% 72%;
+  --demo-soft: 264 32% 18%;
+  --demo-border: 264 28% 34%;
+
+  --focus: 205 88% 60%;
+  --shadow: 215 60% 2%;
+
+  color-scheme: dark;
+}
